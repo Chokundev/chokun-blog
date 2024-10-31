@@ -60,7 +60,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        mono: ["IBM Plex Mono", "monospace"],
+        font: ["Noto Sans Thai Looped"],
       },
 
       typography: {

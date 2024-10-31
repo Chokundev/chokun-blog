@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @layer base {
   :root,
@@ -29,6 +30,7 @@
     display: block;
   }
   body {
+    font-family: "Noto Sans Thai Looped", sans-serif;
     @apply flex min-h-[100svh] flex-col bg-skin-fill font-mono text-skin-base selection:bg-skin-accent/70 selection:text-skin-inverted;
   }
   section,
